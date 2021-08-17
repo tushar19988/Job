@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".authentication.SignupActivity"
+    android:background="@color/white">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_150dp"
+        android:background="@drawable/signup_background"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_20dp"
+            android:id="@+id/btnback"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:background="@color/back"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"/>
+
+            <View
+                android:layout_width="@dimen/dimen_60dp"
+                android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_150dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/wlogo"
+            />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_30dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_create_account"
+            android:textColor="@color/darkcolor"
+            android:fontFamily="@font/montserratalternates_bold"
+            android:textSize="@dimen/dimen_30sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_10dp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtemailu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_email"
+            android:textColorHint="@color/lightcolor"
+            android:textColor="@color/lightcolor"
+            android:textSize="@dimen/dimen_18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@drawable/edittext_background"
+            android:drawableLeft="@drawable/email"
+            android:padding="@dimen/dimen_10dp"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:minLines="1"
+            android:maxLength="36"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtmnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_mobile_number"
+            android:textColorHint="@color/lightcolor"
+            android:textColor="@color/lightcolor"
+            android:textSize="@dimen/dimen_18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@drawable/edittext_background"
+            android:drawableLeft="@drawable/smartphone"
+            android:padding="@dimen/dimen_10dp"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:imeOptions="actionNext"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:minLines="1"
+            android:inputType="number"
+            />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtpassu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_password"
+            android:textColorHint="@color/lightcolor"
+            android:textColor="@color/lightcolor"
+            android:textSize="@dimen/dimen_18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@drawable/edittext_background"
+            android:drawableLeft="@drawable/password"
+            android:padding="@dimen/dimen_10dp"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:minLines="1"
+            android:maxLength="8"
+            android:inputType="textPassword"
+            />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtconfirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_confirm_password"
+            android:textColorHint="@color/lightcolor"
+            android:textColor="@color/lightcolor"
+            android:textSize="@dimen/dimen_18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@drawable/edittext_background"
+            android:drawableLeft="@drawable/password"
+            android:padding="@dimen/dimen_10dp"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:minLines="1"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_sign_up"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="@dimen/dimen_40dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:fontFamily="@font/montserratalternates_bold"
+            android:imeOptions="actionDone"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/montserratalternates_bold"
+                android:text="@string/lbl_already_have_an_account"
+                android:textColor="@color/lightcolor"
+                android:textSize="@dimen/dimen_14sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtsignin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/montserratalternates_bold"
+                android:text="@string/lbl_sign_in"
+                android:textColor="@color/darkcolor"
+                android:textSize="@dimen/dimen_20sp"
+                android:layout_marginLeft="@dimen/dimen_10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

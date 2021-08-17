@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/guj"
+            android:title="@string/lbl_home" />
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/checklist"
+            android:title="@string/lbl_sarkari_results" />
+
+        <item
+            android:id="@+id/nav_employee"
+            android:icon="@drawable/businessman"
+            android:title="@string/lbl_employment_news" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feed"
+            android:title="@string/lbl_feedback" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="@string/lbl_about_us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/exit"
+            android:title="@string/lbl_logout" />
+    </group>
+</menu>

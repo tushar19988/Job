@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">JobApplication</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="lbl_skip">Skip</string>
+    <string name="lbl_sign_up">Sign up</string>
+    <string name="lbl_don_t_have_an_account">Don\'t have an account</string>
+    <string name="lbl_sign_in">Sign in</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="lbl_welcome">Welcome</string>
+    <string name="lbl_please_sign_in_to_continue">Please sign in to continue</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_create_account">Create account</string>
+    <string name="lbl_mobile_number">Mobile number</string>
+    <string name="lbl_confirm_password">Confirm Password</string>
+    <string name="lbl_already_have_an_account">Already have an account</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_results">Results</string>
+    <string name="lbl_sarkari_results">Sarkari Results</string>
+    <string name="lbl_employment_news">Employment news</string>
+    <string name="lbl_feedback">Feedback</string>
+    <string name="lbl_about_us">About us</string>
+
+
+    <string name="lbl_gujarat">Gujarat</string>
+    <string name="lbl_rajasthan">Rajasthan</string>
+    <string name="lbl_central_government">Central Government</string>
+    <string name="lbl_pharmacist">Pharmacist</string>
+    <string name="lbl_ahmedabad_satellite_bangalore_residency_road_mumbai_borivali_east">Ahmedabad(Satellite ), Bangalore(Residency Road ), Mumbai(Borivali East )</string>
+    <string name="lbl_m_pharm_b_pharm">M.Pharm, B.Pharm</string>
+    <string name="lbl_15000_25000_monthly">15000 - 25000 Monthly</string>
+    <string name="lbl_last_date_14_aug_2021">Last Date : 14 Aug 2021</string>
+    <string name="lbl_medipharma_konnect_job_details">Medipharma Konnect - Job Details</string>
+    <string name="lbl_knowledge_about_medicines">knowledge about medicines</string>
+    <string name="lbl_reading_prescriptions_handwriting_is_often_difficult_to_read">reading prescriptions (handwriting is often difficult to read)</string>
+    <string name="lbl_be_able_to_suggest_medicines_for_basic_ailments">be able to suggest medicines for basic ailments</string>
+    <string name="lbl_suggest_alternate_medicines_if_one_brand_is_not_available">suggest alternate medicines if one brand is not available</string>
+    <string name="lbl_be_good_at_filing_and_using_computers">be good at filing and using computers</string>
+    <string name="lbl_manage_invoicing_and_billing">manage invoicing and billing</string>
+    <string name="lbl_job_summary">Job Summary</string>
+
+
+    <string name="lbl_job_type_full_time">Job Type : Full Time</string>
+    <string name="lbl_job_role_pharmacist_medical_rep">Job Role : Pharmacist / Medical Rep</string>
+    <string name="lbl_job_category_pharma">Job Category : Pharma</string>
+    <string name="lbl_hiring_process_face_to_face_interview_telephonic_interview">Hiring Process : Face to Face Interview, Telephonic Interview</string>
+    <string name="lbl_who_can_apply_freshers">Who can apply : Freshers</string>
+    <string name="lbl_apply_now">Apply Now</string>
+    <string name="lbl_mobihealth_fluvina_technologies_private_limited">MobiHealth Fluvina Technologies Private Limited</string>
+    <string name="lbl_medipharma_konnect">Medipharma Konnect</string>
+    <string name="lbl_mobile_appdevelopment">Mobile AppDevelopment</string>
+    <string name="lbl_ahmedabad">Ahmedabad</string>
+    <string name="lbl_me_m_tech_other_course_mca_be_b_tech">ME/M.Tech, Other Course, MCA, BE/B.Tech</string>
+    <string name="lbl_last_date_09_jul_2021">Last Date: 09 Jul 2021</string>
+    <string name="lbl_mobihealth_fluvina_technologies_private_limited_job_details">MobiHealth Fluvina Technologies Private Limited - Job Details</string>
+    <string name="lbl_working_on_native_android_app_development">Working on native Android app development</string>
+    <string name="lbl_using_git_and_solving_the_problem_defined">Using Git and solving the problem defined</string>
+    <string name="lbl_using_and_updating_jira_regularly">Using and updating JIRA regularly</string>
+    <string name="lbl_communicating_with_the_team">Communicating with the team</string>
+    <string name="lbl_understanding_the_requirements_and_creating_documents">Understanding the requirements and creating documents</string>
+    <string name="lbl_skill_s_required_ionic_react_native_android_reactjs">Skill(s) required : Ionic,React Native,Android,ReactJS</string>
+    <string name="lbl_job_type_internship_projects">Job Type : Internship / Projects</string>
+    <string name="lbl_job_role_it_mobile_developer">Job Role : IT - Mobile Developer</string>
+    <string name="lbl_job_category_it_software">Job Category : IT/Software</string>
+    <string name="lbl_sakir_corporation">Sakir corporation</string>
+    <string name="lbl_marketing_executive">Marketing Executive</string>
+    <string name="lbl_ahmedabad_paldi">Ahmedabad(Paldi )</string>
+
+
+    <string name="lbl_12th_pass_hse_any_graduate">12th Pass (HSE), Any Graduate</string>
+    <string name="lbl_last_date_21_aug_2021">Last Date : 21 Aug 2021</string>
+    <string name="lbl_sakir_corporation_job_details">Sakir corporation - Job Details</string>
+    <string name="lbl_dear_candidates_we_are_hiring_fresher_and_experienced_candidates_basic_computer_knowledge_is_compulsory_12th_pass_and_a_graduate_person_can_also_apply_no_target_no_pressure">Dear candidates. We are hiring Fresher and Experienced candidates. Basic computer knowledge is compulsory. 12th pass and a Graduate person can also apply. No Target No Pressure.</string>
+    <string name="lbl_job_category_others">Job Category : Others</string>
+    <string name="lbl_hiring_process_face_to_face_interview">Hiring Process : Face to Face Interview</string>
+    <string name="lbl_balaji_enterprise">Balaji Enterprise</string>
+    <string name="lbl_any_graduate_other_course">Any Graduate, Other Course</string>
+    <string name="lbl_8000_10000_monthly">8000 - 10000 Monthly</string>
+    <string name="lbl_balaji_enterprise_job_details">Balaji Enterprise - Job Details</string>
+    <string name="lbl_over_the_years_balaji_has_firmly_established_the_image_of_one_of_the_most_reliable_offering_timely_delivery_great_range_and_best_quality_products_of_hologram_provider_we_are_a_team_of_dedicated_hardworking_and_motivated_professionals_who_always_have_the_quest_to_deliver_the_best_and_latest_to_our_customers_about_part_time_job_internship_selected_intern_s_day_to_day_responsibilities_include">Over the years Balaji has firmly established the image of one of the most reliable, offering timely delivery, great range and best quality products of hologram provider. We are a team of dedicated, hardworking and motivated professionals who always have the quest to deliver the best and latest to our customers. About part time job/internship Selected intern\'s day-to-day responsibilities include:</string>
+    <string name="lbl_work_with_your_team_to_develop_digital_marketing_strategies">Work with your team to develop digital marketing strategies</string>
+    <string name="lbl_write_marketing_content_for_various_online_marketing_media_channels">Write marketing content for various online marketing media channels</string>
+    <string name="lbl_learn_and_apply_seo_best_practices">Learn and apply SEO best practices</string>
+    <string name="lbl_analyze_reports_to_create_insights_that_will_help_drive_digital_marketing_content_strategies">Analyze reports to create insights that will help drive digital marketing content strategies</string>
+    <string name="lbl_content_creation_for_website_marketing">Content creation for WebSite marketing .</string>
+    <string name="lbl_feardog_music">Feardog Music</string>
+
+
+    <string name="lbl_mobile_app_development">Mobile App Development</string>
+    <string name="lbl_8000_12000_monthly">8000 - 12000 Monthly</string>
+    <string name="lbl_last_date_18_jul_2021">Last Date : 18 Jul 2021</string>
+    <string name="lbl_feardog_music_job_details">Feardog Music - Job Details</string>
+    <string name="lbl_feardog_is_a_record_label_company_where_a_creative_group_of_people_compose_lo_fi_music_for_listeners_we_have_the_vision_to_connect_to_listeners_all_around_the_world_through_our_music_about_the_internship_selected_intern_s_day_to_day_responsibilities_include">Feardog is a record label company, where a creative group of people compose lo-fi music for listeners. We have the vision to connect to listeners all around the world through our music.About the internship Selected intern\'s day-to-day responsibilities include:</string>
+    <string name="lbl_designing_developing_and_maintaining_the_ios_app">Designing, developing and maintaining the iOS app</string>
+    <string name="lbl_working_from_design_to_back_end_development">Working from design to back-end development</string>
+    <string name="lbl_creating_and_maintaining_a_robust_framework_to_support_the_apps">Creating and maintaining a robust framework to support the apps</string>
+    <string name="lbl_work_with_mongodb_and_apis">Work with MongoDB and APIs</string>
+    <string name="lbl_work_on_ios_sdk_and_fix_bugs">Work on IOS SDK and fix bugs</string>
+    <string name="lbl_create_and_integrate_backend_apis">Create and integrate backend APIs</string>
+    <string name="lbl_working_on_unit_testing_codes_for_robustness_including_edge_cases_usability_and_general_reliability">Working on unit-testing codes for robustness, including edge cases, usability, and general reliability</string>
+    <string name="lbl_continuously_discover_evaluate_and_implement_new_technologies_to_maximize_development_efficiency">Continuously discover, evaluate, and implement new technologies to maximize development efficiency</string>
+    <string name="lbl_creating_compelling_device_specific_user_interface_and_experience_skill_s_required_python_node_js_swift_learn_these_skills_on_internshala_trainings">Creating compelling device-specific user interface and experience Skill(s) required: Python,Node.js,Swift Learn these skills on Internshala Trainings</string>
+    <string name="lbl_fiza_enterprises">Fiza enterprises</string>
+    <string name="lbl_back_office_executive">Back Office Executive</string>
+    <string name="lbl_ahmedabad_navrangpura_paldi_sarkhej_satellite_thaltej">Ahmedabad(Navrangpura , Paldi , Sarkhej , Satellite , Thaltej )</string>
+    <string name="lbl_ba_12th_pass_hse_b_com">BA, 12th Pass (HSE), B.Com</string>
+    <string name="lbl_12000_16000_monthly">12000 - 16000 Monthly</string>
+    <string name="lbl_fiza_enterprises_job_details">Fiza enterprises - Job Details</string>
+    <string name="lbl_we_urgently_require_candidates_for_online_part_full_time_promotion_works_spend_2_to_3_hours_in_one_day_with_study_and_regular_job_no_work_pressure_no_time_bound_no_target_no_boss">We Urgently Require Candidates for Online Part/Full Time Promotion Works. Spend 2 To 3 Hours In One Day With Study And Regular Job. No Work Pressure No Time Bound No Target No Boss</string>
+    <string name="lbl_job_role_data_entry_back_office">Job Role : Data Entry /Back Office</string>
+    <string name="lbl_job_category_computer_operator_work_from_home">Job Category : Computer Operator , Work from Home</string>
+    <string name="lbl_krivy">Krivy</string>
+
+
+    <string name="lbl_graphic_designer">Graphic Designer</string>
+    <string name="lbl_ahmedabad_thaltej">Ahmedabad(Thaltej )</string>
+    <string name="lbl_b_design_be_b_tech">B.Design, BE/B.Tech</string>
+    <string name="lbl_10000_12000_monthly">10000 - 12000 Monthly</string>
+    <string name="lbl_last_date_17_aug_2021">Last Date 17 Aug 2021</string>
+    <string name="lbl_website_landing_pages_full_page_ads_primary_site_one_in_every_7_days_new_landing_pages_promoting_different_brands_and_as_per_the_digital_marketing_suggestion_occasions_special_days_etc_theme_and_concept_will_be_given_3_4_days_before_banners_one_in_every_15_days_banners_for_special_discounts_affliate_marketing_promotions_blogs_one_in_every_7_days_every_1_blogs_goes_live_with_in_one_week_the_relevant_graphic_images_required_should_be_provided_as_per_the_content_writer_requirement_theme_and_concept_will_be_given_3_4_days_before_social_media_promotional_one_every_day_every_day_there_will_be_social_media_advertisement_goes_live_motivation_emotional_fun_friendship_and_corporate_gifting_themes_posting_and_as_relevant_to_what_digital_marketing_idea_comes_out_email_marketing_one_every_15_days_email_templates_for_digital_email_marketing_product_catalog_images_150_every_month_existing_products_catalogs_combos_giftsets_images_corrections_for_its_resolutions_sizes_fitment_adjustments_custom_image_creations_custom_artwork_design_50_every_month_for_personalized_giftings_and_requirements_related_artwork_designs_mugs_cusions_cake_sippers_etc_custom_greeting_cards_30_every_month_greeting_card_virtual_greetings_theme_template_creations_with_giftchay_branding_packaging_artwork_on_required_basis_packaging_artwork_might_not_be_frequent_but_as_and_when_required_should_be_considered_marketing_material_on_required_basis_this_will_be_on_required_basis_mostly_it_is_when_going_for_promotional_events_videos_one_every_month_shortform_videos_product_usp_for_facebook_and_instagram_ads">Website - Landing Pages (Full page ads / Primary Site),One in Every 7 days. New Landing pages , Promoting Different Brands and as per the Digital Marketing Suggestion, Occasions, special days etc., Theme and concept will be given 3-4 days before. Banners, One in Every 15 days Banners for Special Discounts, Affliate Marketing Promotions Blogs One in Every 7 days Every 1 Blogs goes live with in One Week, the relevant Graphic images required should be provided as per the Content Writer Requirement. Theme and concept will be given 3-4 days before . Social Media Promotional, One Every Day Every Day there will be Social Media Advertisement Goes live ( Motivation , Emotional , Fun, Friendship and Corporate Gifting Themes Posting ) and as relevant to what Digital Marketing Idea comes out. Email Marketing One Every 15 Days Email Templates for Digital Email Marketing. Product/Catalog Images, 150 Every Month Existing Products/Catalogs/Combos/Giftsets Images Corrections for its resolutions/sizes/fitment adjustments. Custom Image Creations (Custom Artwork Design),50 Every Month For Personalized Giftings and Requirements related artwork designs (Mugs, Cusions, Cake, Sippers etc.,) Custom Greeting cards , 30 Every Month Greeting Card / Virtual Greetings, theme Template Creations with Giftchay Branding Packaging Artwork On Required basis Packaging Artwork , might not be frequent but as and when required should be considered Marketing Material, On Required basis This will be on required basis, mostly it is when going for promotional events. Videos ,One every Month Shortform Videos (Product USP) for Facebook and Instagram ads</string>
+    <string name="lbl_krivy_job_details">Krivy - Job Details</string>
+    <string name="lbl_job_role_design_animation">Job Role : Design / Animation</string>
+    <string name="lbl_job_category_multimedia">Job Category : Multimedia</string>
+    <string name="lbl_techbeelies">Techbeelies</string>
+    <string name="lbl_tech_sales_executive">Tech Sales Executive</string>
+    <string name="lbl_bangalore_mumbai_aizawal">Bangalore, Mumbai, Aizawal</string>
+    <string name="lbl_bba_bbm_any_graduate">BBA/BBM, Any Graduate</string>
+    <string name="lbl_10000_monthly">10000 Monthly</string>
+
+
+    <string name="lbl_last_date_22_aug_2021">Last Date : 22 Aug 2021</string>
+    <string name="lbl_techbeelies_job_details">TECHBEELIES - Job Details</string>
+    <string name="lbl_work_from_home_job_mumbai_and_mizoram_candidate_given_priority_3_month_work_from_then_relocate_to_our_office_roles_and_responsibilities_builds_business_by_identifying_and_selling_prospects_maintaining_relationships_with_clients_identifies_business_opportunities_by_identifying_prospects_and_evaluating_their_position_in_the_industry_researching_and_analysing_sales_options_sells_products_by_establishing_contact_and_developing_relationships_with_prospects_recommending_solutions_negotiate_close_the_deals_maintain_good_relationship_with_new_existing_clients_result_oriented_achieve_the_given_targets_excellent_english_communication_skills_active_listening_skills_confident_and_soft_spoken_prompt_problem_solving_decision_making_skills_qualification_any_graduate_post_graduate_experience_0_to_2_years"><![CDATA[work from home job (mumbai and mizoram candidate given priority)3 month work from then relocate to our office Roles and Responsibilities: Builds business by identifying and selling prospects; maintaining relationships with clients. Identifies business opportunities by identifying prospects and evaluating their position in the industry; researching and analysing sales options. Sells products by establishing contact and developing relationships with prospects; recommending solutions. Negotiate/close the deals. Maintain good relationship with new & existing clients. Result oriented & achieve the given targets. Excellent English communication skills & active listening skills & confident and soft spoken. Prompt problem solving & decision-making skills. Qualification: Any Graduate & Post Graduate Experience- 0 to 2 years]]></string>
+    <string name="lbl_job_role_sales_marketing_executive">Job Role : Sales / Marketing Executive</string>
+    <string name="lbl_job_category_bsc_bca_bbm">Job Category : BSc/BCA/BBM</string>
+    <string name="lbl_hiring_process_telephonic_interview">Hiring Process : Telephonic Interview</string>
+    <string name="lbl_bizknowmics">Bizknowmics</string>
+    <string name="lbl_business_development_sales">Business Development Sales</string>
+    <string name="lbl_mumbai">Mumbai</string>
+    <string name="lbl_last_date_23_jul_2021">Last Date : 23 Jul 2021</string>
+    <string name="lbl_bizknowmics_job_details">Bizknowmics - Job Details</string>
+    <string name="lbl_about_the_internshipselected_intern_s_day_to_day_responsibilities_include_build_a_relationship_with_existing_trust_supporters_contribute_new_ideas_for_fundraising_complete_day_to_day_tasks_participate_in_staff_appraisals_and_client_meetings">About the internshipSelected intern\'s day-to-day responsibilities include: Build a relationship with existing trust supporters, Contribute new ideas for fundraising ,Complete day-to-day tasks,Participate in staff appraisals and client meetings</string>
+    <string name="lbl_certificate_will_be_provided_at_the_end_of_the_internship">Certificate: Will be provided at the end of the Internship</string>
+    <string name="lbl_only_those_candidates_can_apply_who">Only those candidates can apply who:</string>
+    <string name="lbl_are_available_for_full_time_in_office_internship">are available for full time (in-office) internship</string>
+    <string name="lbl_can_start_the_internship_between_22nd_jun_21_and_27th_jul_21">can start the internship between 22nd Jun\'21 and 27th Jul\'21</string>
+    <string name="lbl_are_available_for_duration_of_3_months">are available for duration of 3 months</string>
+    <string name="lbl_are_from_mumbai_and_neighboring_cities">are from Mumbai and neighboring cities</string>
+    <string name="lbl_have_relevant_skills_and_interests">have relevant skills and interests</string>
+    <string name="lbl_job_category_bsc_bca_bbm_sales_and_marketing">Job Category : BSc/BCA/BBM , Sales and Marketing</string>
+    <string name="lbl_intact_search">Intact Search</string>
+    <string name="lbl_assistant_relationship">Assistant Relationship</string>
+    <string name="lbl_manager">Manager</string>
+
+
+    <string name="lbl_mumbai_bhandup_dadar_east_dombivali_mulund_east_thane_mumbai_suburbs_navi_mumbai">Mumbai(Bhandup , Dadar East , Dombivali , Mulund East , Thane), Mumbai Suburbs, Navi Mumbai</string>
+    <string name="lbl_other_graduate_llb_bvsc_ca_cs_bsc_b_p_ed_bams_bhms_b_fashiontech_bfa_icwa_b_design_b_arch_b_pharm_b_com_ba_bba_bbm_bds_bca_be_b_tech_bhm_bed_mbbs_b_f_sc_fisheries_bsw">Other Graduate, LLB, BVSc, CA, CS, BSc, B.P.Ed, BAMS, BHMS, B.FashionTech, BFA, ICWA, B.Design, B.Arch, B.Pharm, B.Com, BA, BBA/BBM, BDS, BCA, BE/B.Tech, BHM, BEd, MBBS, B.F.Sc(Fisheries), BSW</string>
+    <string name="lbl_8000_25000_monthly">8000 - 25000 Monthly</string>
+    <string name="lbl_intact_search_job_details">Intact Search - Job Details</string>
+    <string name="lbl_dear_candidate_we_are_looking_for_assistant_relationship_manager_fno_with_leading_broking_firm_at_mumbaikindly_go_through_the_job_description_profile_assistant_relationship_manager_fno_location_mumbai_kanjurrmarg_experience_fresher_salary_as_per_company_norms_qualification_graduate_gender_male_female_certification_nism_viii_mandatory_job_description_calling_active_customers_hni_potential_for_active_support_sharing_companies_research_ideas_with_clients_for_trading_and_investments_continuous_updating_of_corporate_developments_frequent_churning_of_client_s_portfolio_segregation_of_clients_as_per_risk_appetite_clients_meet_initiative_for_presentation_on_market_basis_proper_tracking_of_position_and_update_giving_training_to_the_clients_fno_advance_concepts_in_markets">Dear Candidate,We are Looking for Assistant Relationship Manager - FNO with Leading Broking Firm at MumbaiKindly go through the Job description Profile :- Assistant Relationship Manager - FNO,Location :- Mumbai (Kanjurrmarg) ,Experience :- Fresher Salary :- As per company norms,Qualification :- Graduate ,Gender :- Male / Female ,Certification :- NISM VIII (Mandatory) Job Description :- • Calling active customers (HNI/Potential) for active support. • Sharing Companies research ideas with clients for trading and investments. • Continuous updating of Corporate Developments • Frequent Churning of client’s portfolio. • Segregation of clients as per risk appetite. • Clients meet. • Initiative for Presentation (on market basis). • Proper tracking of position and update. • Giving Training to the clients. (FNO/Advance concepts in markets)</string>
+    <string name="lbl_job_role_hr_admin">Job Role : HR / Admin</string>
+    <string name="lbl_job_category_recruitment">Job Category : Recruitment</string>
+    <string name="lbl_le_mark_school_of_art">Le Mark School Of Art</string>
+    <string name="lbl_video_making_editing">Video Making/Editing</string>
+    <string name="lbl_any_graduate">Any Graduate</string>
+    <string name="lbl_le_mark_school_of_art_job_details">Le Mark School Of Art - Job Details</string>
+    <string name="lbl_about_the_internship_selected_intern_s_day_to_day_responsibilities_include_shooting_and_editing_videos_handling_the_content_script_planning_skill_s_required_video_editing_adobe_premiere_pro_video_making_adobe_after_effects_learn_these_skills_on_internshala_trainings_learn_video_editing_learn_adobe_premiere_pro_learn_adobe_after_effects"><![CDATA[About the internship Selected intern\'s day-to-day responsibilities include: Shooting and editing videos,Handling the content & script planning Skill(s) required: Video Editing,Adobe Premiere Pro,Video Making,Adobe After Effects,Learn these skills on Internshala Trainings,Learn Video Editing,Learn Adobe Premiere Pro,Learn Adobe After Effects]]></string>
+    <string name="lbl_job_role_media_journalism_events">Job Role : Media / Journalism / Events</string>
+    <string name="lbl_job_category_journalism">Job Category : Journalism</string>
+    <string name="lbl_mason_home">Mason Home</string>
+    <string name="lbl_content_writing">Content Writing</string>
+    <string name="lbl_mason_home_job_details">Mason Home - Job Details</string>
+    <string name="lbl_about_the_internship_selected_intern_s_day_to_day_responsibilities_include_work_on_content_writing_creation_work_on_creative_and_innovative_content_ideas_think_out_of_the_box_4_work_closely_with_production_team_and_brain_storming_on_new_ideas_who_can_apply_only_those_candidates_can_apply_who_are_available_for_full_time_in_office_internship_can_start_the_internship_between_22nd_jun_21_and_27th_jul_21_are_available_for_duration_of_3_months_have_relevant_skills_and_interests_other_requirements_should_be_instagram_savvy_should_be_comfortable_in_front_of_camera"><![CDATA[About the internship Selected intern\'s day-to-day responsibilities include:Work on content writing & creation,Work on creative and innovative content ideas,Think out of the box 4. Work closely with production team and brain-storming on new ideas Who can apply Only those candidates can apply who: are available for full time (in-office) internship ,can start the internship between 22nd Jun\'21 and 27th Jul\'21 ,are available for duration of 3 months,have relevant skills and interests Other requirements:Should be Instagram Savvy, Should be comfortable in front of camera]]></string>
+    <string name="lbl_job_role_content_writer">Job Role : Content Writer</string>
+    <string name="lbl_nextedge_labs">NextEdge Labs</string>
+    <string name="lbl_ui_ux_design">UI/UX Design</string>
+    <string name="lbl_job_details">Job Details</string>
+    <string name="lbl_about_tiss">About TISS</string>
+    <string name="lbl_about_undp">About UNDP</string>
+    <string name="lbl_about_c_dac">About C-DAC</string>
+    <string name="lbl_about_upsc">About UPSC</string>
+
+
+    <string name="lbl_about_indian_coast_guard">About Indian Coast Guard</string>
+    <string name="lbl_about_actrec">About ACTREC</string>
+    <string name="lbl_view_apply"><![CDATA[View & Apply]]></string>
+    <string name="lbl_about_iit_gandhinagar">About IIT Gandhinagar</string>
+    <string name="lbl_about_iim_ahmedabad">About IIM Ahmedabad</string>
+    <string name="lbl_about_physical_research_laboratory">About Physical Research Laboratory</string>
+    <string name="lbl_about_anand_agricultural_university">About Anand Agricultural University</string>
+    <string name="lbl_about_children_university">About Children University</string>
+    <string name="lbl_about_gujarat_technological_university">About Gujarat Technological University</string>
+    <string name="lbl_about_national_dairy_development_board">About National Dairy Development Board</string>
+    <string name="lbl_about_iit_indore">About IIT Indore</string>
+    <string name="lbl_about_high_court_of_madhya_pradesh">About High Court of Madhya Pradesh</string>
+    <string name="lbl_about_ibps">About IBPS</string>
+    <string name="lbl_about_manit">About Manit</string>
+    <string name="lbl_about_iiser_bhopal">About IISER Bhopal</string>
+    <string name="lbl_about_national_institute_of_high_security_animal_diseases">About National Institute of High Security Animal Diseases</string>
+    <string name="lbl_about_blitz_jobs">About Blitz Jobs</string>
+    <string name="lbl_about_iiit_kota">About IIIT Kota</string>
+    <string name="lbl_about_aiims_jodhpur">About AIIMS Jodhpur</string>
+    <string name="lbl_about_iit_jodhpur">About IIT Jodhpur</string>
+    <string name="lbl_about_rajasthan_psc">About Rajasthan PSC</string>
+    <string name="lbl_about_foodbid">About Foodbid</string>
+    <string name="lbl_about_pixalsoft">About PixalSoft</string>
+    <string name="lbl_email_address">Email Address</string>
+
+
+    <string name="lbl_name">Name</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="lbl_view">View</string>
+    <string name="lbl_result">Result</string>
+    <string name="lbl_view_result">View Result</string>
+    <string name="lbl_leave_a_message">Leave a message</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_madhya_pradesh">Madhya Pradesh</string>
+    <string name="lbl_maharastra">Maharastra</string>
+    <string name="lbl_sarkari_result">Sarkari Result</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="lbl_do_you_want_to_logout">Do You Want To logout?</string>
+    <string name="lbl_7976664814">7976664814</string>
+    <string name="lbl_call_now">Call Now</string>
+    <string name="lbl_info_waytocode_in">info@waytocode.in</string>
+    <string name="lbl_email_now">Email now</string>
+    <string name="lbl_about_indira_gandhi_national_centre_for_the_arts">About Indira Gandhi National Centre for the Arts</string>
+    <string name="lbl_please_enter_your_email_address">Please enter your email address</string>
+    <string name="lbl_to_reset_your_password">to reset your password</string>
+    <string name="lbl_continue">Continue</string>
+    <string name="lbl_madhyapradesh">Madhyapradesh</string>
+    <string name="lbl_about">About</string>
+
+
+    <string name="lbl_way_to_job_find_latest_sarkari_jobs_for_freshers_experienced_graduates_across_india_and_get_free_naukri_job_alerts_on_recent_and_upcoming_sarkari_jobs_vacancies_through_way_to_job_as_a_jobs_source_we_provides_present_and_latest_recruitment_details_for_all_government_sarkari_naukri_across_india_here_in_sarkari_naukri_section_jobseekers_can_search_and_apply_online_for_various_jobs_and_information_like_psu_psc_ssc_army_navy_railway_etc_we_also_list_all_the_todays_sarkari_jobs_central_and_state_government_jobs_public_sectors_jobs_latest_bank_jobs_defence_jobs_diploma_sarkari_naukri_across_india">Way To Job:Find latest Sarkari Jobs for freshers experienced graduates across India and get free Naukri/Job alerts on recent and upcoming Sarkari jobs vacancies through Way To Job, as a jobs source we provides present and latest recruitment details for all Government/Sarkari Naukri across India. Here in Sarkari Naukri section jobseekers can search and apply online for various jobs and information like PSU, PSC, SSC, Army, Navy, Railway etc. We also list all the Todays Sarkari Jobs , central and state government jobs, Public sectors jobs, latest Bank jobs, Defence Jobs, Diploma Sarkari naukri across India.</string>
+    <string name="lbl_authentication_failed">Authentication failed.</string>
+    <string name="lbl_sent_successfully">Sent Successfully</string>
+    <string name="lbl_no_internet_connection_please_connect_internet">No Internet Connection Please Connect Internet</string>
+    <string name="lbl_please_enter_the_data">Please Enter The Data....</string>
+    <string name="lbl_subject_here">Subject Here</string>
+    <string name="lbl_subject_text_here...">Subject text here....</string>
+    <string name="lbl_body_of_the_content_here...">Body of the content here....</string>
+    <string name="lbl_enter_phone_number">Enter Phone Number</string>
+    <string name="lbl_send_mail">Send mail</string>
+    <string name="lbl_permission_denied">Permission DENIED</string>
+    <string name="lbl_infowaytocode.in">info@waytocode.in</string>
+    <string name="lbl_createUserWithEmail_success">createUserWithEmail:success</string>
+    <string name="lbl_createUserWithEmail_failure">createUserWithEmail:failure</string>
+    <string name="lbl_signInWithEmail_success">signInWithEmail:success</string>
+    <string name="lbl_signInWithEmail_failure">signInWithEmail:failure</string>
+    <string name="lbl_no_data_found">No Data Found</string>
+    <string name="lbl_share_text_via">Share text via</string>
+
+
+    <string name="lbl_enter_your_registered_email_id">Enter your registered email id</string>
+    <string name="lbl_we_have_sent_you_instructions_to_reset_your_password">We have sent you instructions to reset your password!</string>
+    <string name="lbl_failed_to_send_reset_email">Failed to send reset email!</string>
+    <string name="lbl_caption_one">Choose a job you love, and you will never have to work a day in your life.</string>
+    <string name="lbl_caption_two">Its time to start living the life weve imagined.</string>
+    <string name="lbl_caption_three">In the middle of difficulty lies opportunity.</string>
+    <string name="lbl_caption_four">Only those who dare to fail greatly can ever achieve greatly.</string>
+    <string name="lbl_caption_five">It is never too late to be what you might have been.</string>
+    <string name="lbl_connectivity_exception">Connectivity Exception</string>
+    <string name="lbl_guj">Gujarat</string>
+    <string name="lbl_sarka_res">Sarkari results</string>
+    <string name="lbl_emp_news">Employment news</string>
+    <string name="lbl_feed">Feedback</string>
+    <string name="lbl_con">Confirm</string>
+    <string name="lbl_are_u_sure">Are you sure?</string>
+    <string name="lbl_you_r_not_logged_in_what_to_login">\"You are not logged in,Want to Login?? \"</string>
+    <string name="lbl_raj">Rajasthan</string>
+    <string name="lbl_mp">MadhyaPradesh</string>
+    <string name="lbl_you_want_to_logout">Are you sure you want to log out?</string>
+    <string name="lbl_yes">YES</string>
+    <string name="lbl_no">NO</string>
+    <string name="lbl_details">Details</string>
+    <string name="lbl_fgot_password">Forgot Password</string>
+    <string name="lbl_loading">Loading...</string>
+    <string name="lbl_enter_email">Please enter email id</string>
+    <string name="lbl_enter_ur_name">Please Enter You Name</string>
+    <string name="lbl_enter_feed">Please Enter Your Feedback</string>
+    <string name="lbl_invalid_email">invalid email pattern</string>
+    <string name="lbl_please_password">Please Enter The Password</string>
+    <string name="lbl_enter_confirm_password">Please Enter Th Confirm Password</string>
+    <string name="lbl_enter_correct_password">Enter Correct Password</string>
+
+
+</resources>

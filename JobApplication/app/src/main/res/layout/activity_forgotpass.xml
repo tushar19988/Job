@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ForgotpassActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/darkcolor"
+        app:popupTheme="@style/Theme.JobApplication.PopupOverlay" >
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnback"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:background="@color/darkcolor"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_fgot_password"
+            android:fontFamily="@font/montserratalternates_bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:layout_marginLeft="@dimen/dimen_20dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgback"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_200dp"
+            android:background="@drawable/aback"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imglockback"
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="@dimen/dimen_150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/for_background"
+            android:layout_alignBottom="@+id/imgback" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"
+            android:src="@drawable/forgotlock"/>
+
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_30dp">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_please_enter_your_email_address"
+            android:textColor="@color/darkcolor"
+            android:textSize="@dimen/dimen_18sp"
+            android:gravity="center"
+            android:fontFamily="@font/montserratalternates_bold"
+            android:layout_marginTop="@dimen/dimen_20dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_to_reset_your_password"
+            android:textSize="@dimen/dimen_18sp"
+            android:textColor="@color/darkcolor"
+            android:gravity="center"
+            android:fontFamily="@font/montserratalternates_bold"/>
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtespmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_email"
+            android:textColorHint="@color/lightcolor"
+            android:textColor="@color/lightcolor"
+            android:imeOptions="actionDone"
+            android:maxLength="36"
+            android:inputType="text"
+            android:maxLines="1"
+            android:minLines="1"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@drawable/edittext_background"
+            android:padding="@dimen/dimen_10dp"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_40dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btncnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_continue"
+            android:textAllCaps="false"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_marginTop="@dimen/dimen_40dp"
+            android:textSize="@dimen/dimen_18sp"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

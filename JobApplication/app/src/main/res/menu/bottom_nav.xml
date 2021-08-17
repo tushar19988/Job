@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navb_guj"
+        android:icon="@drawable/guj"
+        android:title="@string/lbl_gujarat" />
+
+    <item
+        android:id="@+id/navb_rajsthan"
+        android:icon="@drawable/rajsthan"
+        android:title="@string/lbl_rajasthan" />
+
+    <item
+        android:id="@+id/navb_mp"
+        android:icon="@drawable/mpp"
+        android:title="@string/lbl_madhyapradesh" />
+
+    <item
+        android:id="@+id/navb_maharastra"
+        android:icon="@drawable/maharastra"
+        android:title="@string/lbl_central_government" />
+</menu>

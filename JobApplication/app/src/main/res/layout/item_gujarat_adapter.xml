@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="@dimen/dimen_10dp"
+    android:id="@+id/servicesLinear"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="@dimen/dimen_10dp"
+    android:clickable="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_10dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcname"
+            android:textColor="@color/darkcolor"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="@dimen/dimen_15sp"
+            android:padding="@dimen/dimen_5dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtpost"
+            android:textColor="@color/darkcolor"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="@dimen/dimen_12sp"
+            android:padding="@dimen/dimen_5dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txteducation"
+            android:textColor="@color/darkcolor"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="@dimen/dimen_12sp"
+            android:drawableLeft="@drawable/mortarboard"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_5dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtlocation"
+            android:textColor="@color/darkcolor"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="@dimen/dimen_12sp"
+            android:drawableLeft="@drawable/pin"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_5dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtlastdate"
+            android:textColor="@color/darkcolor"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="@dimen/dimen_12sp"
+            android:padding="@dimen/dimen_5dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_view_apply"
+            android:background="@drawable/button_background"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserratalternates_bold"
+            android:textSize="@dimen/dimen_15sp"
+            android:layout_gravity="right"
+            android:id="@+id/btnview"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

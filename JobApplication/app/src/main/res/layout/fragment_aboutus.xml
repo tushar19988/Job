@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".fragment.AboutusFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_200dp"
+        android:text="@string/lbl_about_us"
+        android:fontFamily="@font/montserratalternates_bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_30sp"
+        android:gravity="center"
+        android:background="@drawable/aback"/>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_20dp">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_way_to_job_find_latest_sarkari_jobs_for_freshers_experienced_graduates_across_india_and_get_free_naukri_job_alerts_on_recent_and_upcoming_sarkari_jobs_vacancies_through_way_to_job_as_a_jobs_source_we_provides_present_and_latest_recruitment_details_for_all_government_sarkari_naukri_across_india_here_in_sarkari_naukri_section_jobseekers_can_search_and_apply_online_for_various_jobs_and_information_like_psu_psc_ssc_army_navy_railway_etc_we_also_list_all_the_todays_sarkari_jobs_central_and_state_government_jobs_public_sectors_jobs_latest_bank_jobs_defence_jobs_diploma_sarkari_naukri_across_india"
+            android:textColor="@color/darkcolor"
+            android:textSize="@dimen/dimen_12sp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_mobile_number"
+            android:textSize="@dimen/dimen_18sp"
+            android:textColor="@color/darkcolor"
+            android:drawableLeft="@drawable/smartphone"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:fontFamily="@font/montserratalternates_bold"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_7976664814"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@color/white"
+            android:textColor="@color/darkcolor"
+            android:id="@+id/txtnum"
+            android:padding="@dimen/dimen_30dp"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl_call_now"
+                android:textAllCaps="false"
+                android:id="@+id/btncalling"
+                android:textSize="@dimen/dimen_12sp"
+                android:background="@drawable/logout_background"
+                android:fontFamily="@font/montserratalternates_bold"
+                android:textColor="@color/white"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_email"
+            android:textSize="@dimen/dimen_18sp"
+            android:textColor="@color/darkcolor"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:fontFamily="@font/montserratalternates_bold"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_info_waytocode_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:background="@color/white"
+                android:textColor="@color/darkcolor"
+                android:id="@+id/txtemail"
+                android:textSize="11sp"
+                android:padding="@dimen/dimen_30dp"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl_email_now"
+                android:textAllCaps="false"
+                android:id="@+id/btnemail"
+                android:textSize="@dimen/dimen_12sp"
+                android:background="@drawable/logout_background"
+                android:fontFamily="@font/montserratalternates_bold"
+                android:textColor="@color/white"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

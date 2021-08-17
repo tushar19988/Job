@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_background"
+    tools:context=".ResultdetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/darkcolor"
+        app:popupTheme="@style/Theme.JobApplication.PopupOverlay" >
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnback"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:background="@color/darkcolor"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_details"
+            android:fontFamily="@font/montserratalternates_bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:layout_marginLeft="@dimen/dimen_20dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_20dp">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/txtemp"
+            android:textSize="@dimen/dimen_22sp"
+            android:fontFamily="@font/montserratalternates_bold"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="@dimen/dimen_18sp"
+            android:text="@string/lbl_result"
+            android:id="@+id/txtresult"
+            android:layout_marginTop="@dimen/dimen_20dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/txtexam"
+            android:textSize="@dimen/dimen_15sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:drawableLeft="@drawable/list"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="@dimen/dimen_15sp"
+            android:drawableLeft="@drawable/mortarboardwh"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:id="@+id/txtuni"
+            android:layout_marginTop="@dimen/dimen_20dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/txtlocation"
+            android:drawableLeft="@drawable/maps"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="@dimen/dimen_15sp"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/dimen_300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_view_result"
+            android:textAllCaps="false"
+            android:textColor="@color/darkcolor"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:id="@+id/btnrview"
+            android:fontFamily="@font/montserratalternates_bold"
+            android:background="@drawable/edittext_background"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
